@@ -1,3 +1,6 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2026-11-11"
+
+# GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET и ALLOWED_DOMAINS заданы в панели Cloudflare, деплой их не трогает
+keep_vars = true
